@@ -921,3 +921,329 @@ form textarea {
     width: 636px !important;
   }
 }
+/* by Yusif Ramazanov */
+/*section 7th start  */
+.cardInfo {
+  width: 100%;
+  height: 983px;
+  padding: 115px 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/17.png);
+  background-size: contain;
+  background-size: 100% 100%;
+}
+/* section 7th head partition start */
+.cardInfoHead {
+  width: 100%;
+  max-width: 1116px;
+  height: 85px;
+  margin-bottom: 50px;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cardInfoHead h6 {
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+.cardInfoHead h2 {
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+/* section 7th head partition end */
+
+/* section 7th main partition start */
+.cardInfoDown {
+  width: 100%;
+  max-width: 1140px;
+  height: 567px;
+  margin: 0 12px 0 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* section 7th main 1st\\2nd\\3rd partitions start */
+.cardPicturesInfoAll {
+  width: 100%;
+  width: 356px;
+  height: 402px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardPicturesInfo {
+  width: 100%;
+  width: 356px;
+  height: 340px;
+  padding: 0 12px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.cardPictureOut {
+  width: 100%;
+  max-width: 356px;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardPicture {
+  width: 100%;
+  width: 296px;
+  height: 280px;
+  overflow: hidden;
+  transition: 1s;
+  position: relative;
+}
+.cardPicture img {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+.cardPicturesInfoAll:hover .cardPicture {
+  transform: scale(1.1);
+}
+
+.cardTextInfo {
+  width: 296px;
+  height: 122px;
+  background: #fff;
+  margin: -60px 30px 30px;
+  position: relative;
+  z-index: 2;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 3px 20px rgba(0, 33, 71, 0.06);
+  text-align: center;
+}
+.cardTextInfo h5 {
+  margin-bottom: 10px;
+}
+a {
+  font-size: 22px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0.1s;
+  transition-property: all;
+}
+a:hover {
+  color: rgb(13 110 253);
+}
+.cardTextInfo p {
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 200;
+  color: grey;
+}
+.cardPicturesInfo ul {
+  width: 117px;
+  height: 35px;
+  list-style: none;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  margin-top: 260px;
+  transition: 0.5s;
+  opacity: 0.1;
+}
+.cardPicturesInfoAll:hover ul {
+  transition: 0.5s;
+  margin-top: 200px;
+  opacity: 1;
+}
+.cardPicturesInfo ul li {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cardPicturesInfo ul li a {
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 4px 4px 0 0;
+  display: inline-block;
+  background-color: #246bfd;
+  margin: 0 2px;
+  color: #fff;
+}
+/* section 7th main 1st\\2nd\\3rd partitions end */
+
+/* section 7th responsive for display start */
+@media (max-width: 1200px) {
+  .cardInfoHead {
+    width: 936px;
+    height: 85px;
+  }
+  .cardInfoDown {
+    width: 960px;
+    height: 375px;
+  }
+  .cardPicturesInfoAll {
+    width: 295px;
+    height: 345px;
+  }
+  .cardPicturesInfo {
+    width: 295px;
+    height: 300px;
+  }
+  .cardPicturesInfoAll:hover ul {
+    margin-top: 160px;
+  }
+  .cardTextInfo {
+    width: 236px;
+    height: 122px;
+    font-size: 24px;
+  }
+  .cardPicture {
+    width: 235px;
+    height: 223px;
+  }
+}
+/* section 3th responsive for display end */
+
+/* section 3th responsive for tablet start */
+@media (max-width: 992px) {
+  .cardInfo {
+    width: 100%;
+    max-width: 992px;
+    height: 1200px;
+  }
+  .cardInfoHead {
+    width: 696px;
+    height: 85px;
+  }
+  .cardInfoDown {
+    width: 720px;
+    height: 826px;
+    flex-wrap: wrap;
+  }
+  .cardPicturesInfoAll {
+    width: 365px;
+    height: 383px;
+  }
+  .cardPicturesInfoAll ul {
+    margin-top: 365px;
+  }
+  .cardPicturesInfoAll:hover ul {
+    margin-top: 310px;
+  }
+  .cardPicturesInfo {
+    width: 336px;
+    height: 320px;
+  }
+
+  .cardTextInfo {
+    width: 236px;
+    height: 122px;
+    font-size: 24px;
+  }
+  .cardPicture {
+    width: 235px;
+    height: 223px;
+  }
+}
+/* section 7th responsive for tablet end */
+
+/* section 7th responsive for phone start */
+@media (max-width: 768px) {
+  .cardInfo {
+    width: 100%;
+    max-width: 768px;
+    height: 2019px;
+  }
+  .cardInfoHead {
+    width: 516px;
+    height: 134px;
+  }
+  .cardInfoDown {
+    width: 540px;
+    height: 1620px;
+    flex-wrap: wrap;
+  }
+  .cardPicturesInfoAll {
+    width: 100%;
+    max-width: 540px;
+    height: 540px;
+  }
+  .cardPicturesInfo {
+    max-width: 530px;
+    height: 540px;
+    width: 100%;
+  }
+  .cardTextInfo {
+    width: 456px;
+    height: 122px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .cardPicture {
+    width: 451px;
+    height: 426px;
+  }
+}
+@media (max-width: 500px) {
+  .cardInfo {
+    width: 100%;
+    max-width: 768px;
+    height: 2019px;
+  }
+  .cardInfoHead {
+    width: 430px;
+    height: 134px;
+  }
+  .cardInfoDown {
+    width: 430px;
+    height: 1620px;
+    flex-wrap: wrap;
+  }
+  .cardPicturesInfoAll {
+    width: 100%;
+    max-width: 540px;
+    height: 540px;
+  }
+  .cardPicturesInfo {
+    max-width: 530px;
+    height: 540px;
+    width: 100%;
+  }
+  .cardTextInfo {
+    width: 330px;
+    height: 122px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .cardPicture {
+    width: 430px;
+    height: 426px;
+  }
+}
+/* section 7th 1st\\ 2nd\\ 3rd responsive for phone end */
