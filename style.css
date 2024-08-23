@@ -9,3 +9,143 @@
 :root {
   --padding: 0 115px;
 }
+/* header start  */
+header {
+  width: 100%;
+}
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.navbar-logo {
+  width: 30%;
+  max-width: 405px !important;
+  height: 147px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./images/AgileTech-logo-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+}
+.navbar-logo img {
+  width: 201px;
+  height: 51px;
+}
+.general-navbar {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.navbar-top {
+  width: 100%;
+  height: 51px;
+  display: flex;
+  margin-top: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 16px 15px 0px;
+  background: transparent !important;
+}
+.navbar-top-left ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+.navbar-top-left ul li {
+  font-size: 13px;
+  color: #010d14;
+  margin-right: 15px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+}
+.navbar-top-right ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-top-right ul li {
+  font-size: 14px;
+  margin-right: 15px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+}
+.navbar-top-right ul li a {
+  color: #010d14 !important;
+}
+.navbar-bottom {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px 0 0;
+}
+.navbar-bottom-left ul {
+  width: 100%;
+  max-width: 736px;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-bottom-left ul li a {
+  padding-left: 3px !important;
+  padding-right: 14px;
+  margin-right: 12px;
+  font-weight: 600;
+  color: #101a29;
+  line-height: 80px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.navbar-bottom-left ul li a:hover {
+  color: #246bfd;
+}
+.navbar-bottom button {
+  height: 55px;
+  color: #fff;
+  background-color: #246bfd;
+  margin-left: 15px;
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  line-height: 55px;
+  padding: 0 30px;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  z-index: 0;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #101a29 50%,
+    transparent 50%
+  );
+  background-image: linear-gradient(45deg, #101a29 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: 1.5s ease-in-out;
+}
+
+.navbar-bottom button:hover {
+  background-color: #fff !important;
+  transition: all 2s ease;
+  background-position: 0;
+  z-index: -1;
+}
+.menu-icon {
+  display: none;
+}
+.menu-icon i {
+  cursor: pointer;
+  color: #010d14;
+  font-size: 30px;
+}
+/* header end  */
