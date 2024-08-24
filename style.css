@@ -419,6 +419,13 @@ section.sec1 {
     max-width: 516px;
   }
 }
+@media (max-width: 391px) {
+  .protectDatasIn {
+    width: 340px !important;
+    margin: 0;
+    padding: 0;
+  }
+}
 /* section 3rd responsive for phone end */
 
 /* section 3rd end */
@@ -493,7 +500,7 @@ section.sec5 {
   width: 546px;
   height: 636px;
   background-color: #fff;
-  padding: 50px;
+  /* padding: 50px; */
   margin-top: 0px;
   right: 0px;
   top: 50px;
@@ -969,7 +976,7 @@ form textarea {
     padding: 0 120px;
   }
   .sec1 h2 {
-    width: 445px !important;
+    width: 350px !important;
     font-size: 60px;
     margin-bottom: 20px;
     font-weight: 700;
@@ -978,7 +985,7 @@ form textarea {
     line-height: 1.24;
   }
   .sec1 p {
-    width: 445px !important;
+    max-width: 350px;
     margin-bottom: 32px;
     flex-wrap: wrap;
     padding: 0 !important;
@@ -989,12 +996,12 @@ form textarea {
     line-height: 1.7;
   }
   .sec5 .container {
-    width: 100%;
+    max-width: 500px;
     padding: 0 35px;
   }
   .sec5 {
-    width: 450px !important;
-    height: 1400px !important;
+    width: 480px !important;
+    height: 2100px !important;
     padding: 110px 0 100px 0;
     background-image: url("/images/AgileTech-sec5-bg.jpg");
     background-position: cover;
@@ -1016,12 +1023,12 @@ form textarea {
     position: relative;
   }
   .sec5 .image-form img {
-    width: 445px;
+    width: 350px;
     height: 761px;
   }
   .sec5 .image-form .form {
     height: 737px;
-    width: 445px;
+    width: 350px;
     padding: 30px;
     margin-top: 100px;
     position: absolute;
@@ -1036,11 +1043,11 @@ form textarea {
   }
   .sec5 form .input-one input,
   form .input-two input {
-    width: 449px !important;
+    width: 350px !important;
   }
 }
 
-@media (max-width: 391px) {
+@media (max-width: 395px) {
   * {
     margin: 0;
     padding: 0;
@@ -1048,7 +1055,7 @@ form textarea {
     max-width: 390px;
   }
   .navbar-bottom {
-    width: 391px !important;
+    width: 395px !important;
   }
   nav ul {
     display: flex;
@@ -1086,7 +1093,7 @@ form textarea {
     padding: 0 120px;
   }
   .sec1 h2 {
-    width: 391px !important;
+    width: 395px !important;
     font-size: 60px;
     margin-bottom: 20px;
     font-weight: 700;
@@ -1095,7 +1102,7 @@ form textarea {
     line-height: 1.24;
   }
   .sec1 p {
-    width: 391px !important;
+    width: 395px !important;
     margin-bottom: 32px;
     flex-wrap: wrap;
     padding: 0 !important;
@@ -1106,12 +1113,12 @@ form textarea {
     line-height: 1.7;
   }
   .sec5 .container {
-    width: 100%;
+    max-width: 340px;
     padding: 0 35px;
   }
   .sec5 {
-    width: 391px !important;
-    height: 1400px !important;
+    width: 390px !important;
+    height: 1800px !important;
     padding: 110px 0 100px 0;
     background-image: url("/images/AgileTech-sec5-bg.jpg");
     background-position: cover;
@@ -1129,16 +1136,16 @@ form textarea {
     width: 336px !important;
   }
   .sec5 .image-form {
-    width: 100%;
+    width: 350px;
     position: relative;
   }
   .sec5 .image-form img {
-    width: 391px;
-    height: 761px;
+    width: 310px;
+    height: 500px;
   }
   .sec5 .image-form .form {
     height: 737px;
-    width: 391px;
+    width: 320px;
     padding: 30px;
     margin-top: 100px;
     position: absolute;
@@ -1147,13 +1154,13 @@ form textarea {
   }
   .sec5 form .input-one,
   form .input-two {
-    width: 100%;
+    width: 320px;
     display: flex;
     flex-direction: column;
   }
   .sec5 form .input-one input,
   form .input-two input {
-    width: 391px !important;
+    width: 320px !important;
   }
 }
 /* by Yusif Ramazanov */
@@ -1181,6 +1188,7 @@ form textarea {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: 100px;
 }
 
 .cardInfoHead h6 {
@@ -1413,7 +1421,7 @@ a:hover {
     width: 100%;
     max-width: 768px;
     height: 2819px;
-    justify-content: start;
+    justify-content: center;
   }
   .cardInfoHead {
     width: 516px;
@@ -1453,13 +1461,14 @@ a:hover {
     height: 2019px;
   }
   .cardInfoHead {
-    width: 430px;
+    width: 360px;
     height: 134px;
   }
   .cardInfoDown {
     width: 430px;
     height: 1620px;
     flex-wrap: wrap;
+    margin: 0;
   }
   .cardPicturesInfoAll {
     width: 100%;
@@ -1489,11 +1498,11 @@ a:hover {
     height: 2019px;
   }
   .cardInfoHead {
-    width: 391px;
+    width: 330px;
     height: 134px;
   }
   .cardInfoDown {
-    width: 391px;
+    width: 330px;
     height: 1620px;
     flex-wrap: wrap;
   }
@@ -1575,7 +1584,7 @@ a:hover {
 
 /* footer's center partition start */
 .footerCenter {
-  width: 1116px;
+  max-width: 1116px;
   height: 441px;
   background-color: rgb(0, 0, 0);
   padding: 0 12px;
@@ -1806,21 +1815,21 @@ a:hover {
     flex-wrap: wrap;
   }
   .footerCenterText {
-    width: 516px;
+    max-width: 516px;
     height: 240px;
   }
   .footerendText {
-    width: 720px;
+    max-width: 720px;
     height: 27px;
   }
 }
-@media (max-width: 391px) {
+@media (max-width: 500px) {
   .footer1 {
-    max-width: 391 px;
+    max-width: 410px;
     height: 1393px;
   }
   .footerAbout {
-    width: 391px;
+    width: 550px;
     height: 423px;
     flex-direction: column;
     align-items: start;
@@ -1830,16 +1839,51 @@ a:hover {
     height: 109px;
   }
   .footerCenter {
-    max-width: 391px !important;
+    max-width: 550px !important;
     height: 960px;
     flex-wrap: wrap;
   }
   .footerCenterText {
-    width: 391px;
+    width: 470px;
+    height: 240px;
+  }
+  .footerEnd {
+    width: 550px;
+  }
+  .footerendText {
+    width: 410px;
+    height: 27px;
+  }
+}
+@media (max-width: 410px) {
+  .footer1 {
+    max-width: 410px;
+    height: 1393px;
+  }
+  .footerAbout {
+    width: 410px;
+    height: 423px;
+    flex-direction: column;
+    align-items: start;
+  }
+  .footerAboutText {
+    width: 263px;
+    height: 109px;
+  }
+  .footerCenter {
+    max-width: 410px !important;
+    height: 960px;
+    flex-wrap: wrap;
+  }
+  .footerCenterText {
+    width: 410px;
     height: 240px;
   }
   .footerendText {
-    width: 391px;
+    width: 410px;
     height: 27px;
+  }
+  .footerEnd {
+    width: 390px;
   }
 }
