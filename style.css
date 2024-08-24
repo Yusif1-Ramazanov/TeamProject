@@ -1413,7 +1413,7 @@ a:hover {
     width: 100%;
     max-width: 768px;
     height: 2819px;
-    justify-content: start;
+    justify-content: center;
   }
   .cardInfoHead {
     width: 516px;
