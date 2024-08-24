@@ -1,0 +1,1889 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  --padding: 0 115px;
+}
+/* header start  */
+header {
+  width: 100%;
+}
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.navbar-logo {
+  width: 30%;
+  max-width: 405px !important;
+  height: 147px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./images/AgileTech-logo-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+}
+.navbar-logo img {
+  width: 201px;
+  height: 51px;
+}
+.general-navbar {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.navbar-top {
+  width: 100%;
+  height: 51px;
+  display: flex;
+  margin-top: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 16px 15px 0px;
+  background: transparent !important;
+}
+.navbar-top-left ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+.navbar-top-left ul li {
+  font-size: 13px;
+  color: #010d14;
+  margin-right: 15px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+}
+.navbar-top-right ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-top-right ul li {
+  font-size: 14px;
+  margin-right: 15px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+}
+.navbar-top-right ul li a {
+  color: #010d14 !important;
+}
+.navbar-bottom {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px 0 0;
+}
+.navbar-bottom-left ul {
+  width: 100%;
+  max-width: 736px;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-bottom-left ul li a {
+  padding-left: 3px !important;
+  padding-right: 14px;
+  margin-right: 12px;
+  font-weight: 600;
+  color: #101a29;
+  line-height: 80px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.navbar-bottom-left ul li a:hover {
+  color: #246bfd;
+}
+.navbar-bottom button {
+  height: 55px;
+  color: #fff;
+  background-color: #246bfd;
+  margin-left: 15px;
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  line-height: 55px;
+  padding: 0 30px;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  z-index: 0;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #101a29 50%,
+    transparent 50%
+  );
+  background-image: linear-gradient(45deg, #101a29 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: 1.5s ease-in-out;
+}
+
+.navbar-bottom button:hover {
+  background-color: #fff !important;
+  transition: all 2s ease;
+  background-position: 0;
+  z-index: -1;
+}
+.menu-icon {
+  display: none;
+}
+.menu-icon i {
+  cursor: pointer;
+  color: #010d14;
+  font-size: 30px;
+}
+/* header end  */
+
+/* section 1 start  */
+section.sec1 {
+  width: 100%;
+  height: 831px;
+  padding: 210px 0 70px;
+  background-image: url("./images/AgileTech-sec1-bg.jpg");
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  z-index: 0;
+}
+.sec1 .container {
+  width: 100%;
+  height: auto;
+  padding: var(--padding);
+}
+.sec1 h6 {
+  margin-bottom: 1.5rem !important;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.24;
+}
+.sec1 h2 {
+  width: 427px;
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #fff;
+  line-height: 1.24;
+}
+.sec1 p {
+  width: 427px;
+  margin-bottom: 32px;
+  padding-right: 1.5rem !important;
+  font-weight: 500;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  color: #737588;
+  line-height: 1.7;
+}
+.sec1 button {
+  height: 55px;
+  color: #fff;
+  background-color: #246bfd;
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  line-height: 55px;
+  padding: 0 30px;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  z-index: 0;
+  background-image: -webkit-linear-gradient(45deg, #fff 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #fff 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: 1.5s ease-in-out;
+}
+.sec1 button:hover {
+  background-color: #fff !important;
+  transition: all 2s ease;
+  background-position: 0;
+  z-index: -1;
+  color: #101a29 !important;
+}
+/* section 1 end  */
+/* By Yusif Ramazanov */
+/* section 3rd start */
+
+/* section 3rd head partition start */
+.section3 {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.infoProtectData {
+  width: 100%;
+  height: 969px;
+  padding: 100px 0 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/background_image.png);
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.sectionData_center {
+  width: 100%;
+  max-width: 451px;
+  height: 134px;
+  padding: 12px;
+  font-size: 24px;
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-bottom: 50px;
+}
+.sectionDataMain {
+  width: 100%;
+  max-width: 1150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/* section 3rd head partition end */
+
+/* section 3rd main partition start */
+
+/* section 3rd main 1st partition  start */
+.protectDatasIn {
+  width: 356px;
+  height: 317px;
+  padding: 0 12px 0 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+.protectDatasInImg {
+  width: 286px;
+  height: 80px;
+  text-align: right;
+  margin-bottom: -38px;
+  z-index: 1;
+}
+.aspects {
+  width: 356px;
+  height: 237px;
+  padding: 35px;
+  background: #fff;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 20px rgba(19, 16, 34, 0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.aspects a {
+  font-size: 22px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  color: black;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0.1s;
+  transition-property: all;
+  background-color: white;
+}
+.aspects a:hover {
+  color: rgb(13 110 253);
+}
+.aspects p {
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 200;
+  color: grey;
+}
+/* section 3rd main 1st partition  end */
+/* section 3rd main partition  end */
+
+/* section 3rd responsive for display start */
+@media (max-width: 1200px) {
+  .infoProtectData {
+    width: 100%;
+    max-width: 1188px;
+    height: 1083px;
+  }
+  .sectionDataMain {
+    width: 100%;
+    max-width: 1188px;
+    height: 949px;
+    justify-content: center;
+  }
+  .protectDatasIn {
+    width: 290px;
+    height: 380px;
+    margin: 20px;
+  }
+  .protectDatasInImg {
+    width: 236px;
+    height: 80px;
+  }
+  .sectionData_center {
+    width: 100%;
+    max-width: 615px;
+    height: 134px;
+    font-size: 24px;
+  }
+  .aspects {
+    width: 290px;
+    height: 237px;
+  }
+}
+/* section 3rd responsive for display end */
+
+/* section 3rd responsive for tablet start */
+@media (max-width: 992px) {
+  .infoProtectData {
+    width: 100%;
+    max-width: 992px;
+    height: 1310px;
+    background-size: contain;
+  }
+  .sectionDataMain {
+    width: 100%;
+    max-width: 990px;
+    height: 1136px;
+    justify-content: center;
+  }
+  .protectDatasInImg {
+    width: 236px;
+    height: 80px;
+  }
+  .protectDatasIn {
+    width: 100%;
+    width: 336px;
+    height: 317px;
+    margin: 20px;
+  }
+  .sectionData_center {
+    width: 100%;
+    max-width: 696px;
+    height: 134px;
+    font-size: 24px;
+  }
+}
+/* section 3rd responsive for tablet end */
+
+/* section 3rd responsive for phone start */
+@media (max-width: 768px) {
+  .infoProtectData {
+    width: 100%;
+    max-width: 768px;
+    height: 1971px;
+    background-size: contain;
+  }
+  .sectionDataMain {
+    width: 100%;
+    max-width: 768px;
+    height: 1455px;
+    justify-content: center;
+  }
+  .protectDatasInImg {
+    width: 420px;
+    height: 80px;
+  }
+  .protectDatasIn {
+    width: 516px;
+    height: 232px;
+    margin: 20px;
+  }
+  .sectionData_center {
+    width: 100%;
+    max-width: 516px;
+    height: 134px;
+    font-size: 24px;
+  }
+  .aspects {
+    width: 100%;
+    max-width: 516px;
+  }
+}
+@media (max-width: 391px) {
+  .protectDatasIn {
+    width: 340px !important;
+    margin: 0;
+    padding: 0;
+  }
+}
+/* section 3rd responsive for phone end */
+
+/* section 3rd end */
+
+/* section 5 start  */
+section.sec5 {
+  width: 100%;
+  height: 519px;
+  padding: 110px 0 100px;
+  background-image: url("./images/AgileTech-sec5-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  margin-bottom: 44rem;
+}
+.sec5 .container {
+  width: 100%;
+  padding: var(--padding);
+}
+.sec5 .cards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12px 90px;
+}
+.sec5 .card {
+  width: 285px;
+  padding: 0 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec5 .card img {
+  transition: 0.4s;
+}
+.sec5 .card:hover img {
+  transition: 0.4s;
+  transform: rotateY(180deg);
+}
+.sec5 .card h2 {
+  margin-bottom: 0.5rem !important;
+  margin-top: 1.5rem !important;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 40px;
+  line-height: 1.24;
+}
+.sec5 .card p {
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 500;
+}
+.image-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.image-form img {
+  width: 736px;
+  height: 805px;
+}
+.form {
+  position: absolute;
+  width: 546px;
+  height: 636px;
+  background-color: #fff;
+  /* padding: 50px; */
+  margin-top: 0px;
+  right: 0px;
+  top: 50px;
+  border-radius: 5px;
+  box-shadow: 0 3px 20px rgba(0, 33, 71, 0.06);
+}
+.form h6 {
+  color: #246bfd;
+  margin-bottom: 1rem !important;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.24;
+  font-weight: 600;
+}
+.form h2 {
+  font-size: 35px;
+  color: #101a29;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  line-height: 1.24;
+  font-weight: 600;
+}
+.form p {
+  width: 100%;
+  margin-top: 17px;
+  margin-bottom: 20px;
+  color: #737588;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 500;
+}
+form .input-one,
+.input-two {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+form input {
+  width: 211px !important;
+  height: 50px;
+  padding: 0 12px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid hsla(33, 32%, 88%, 0.7) !important;
+  width: 100%;
+  height: 50px;
+  padding: 0 18px;
+  border-radius: 6px;
+  font-weight: 300;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+form input::placeholder,
+textarea::placeholder {
+  font-weight: 400;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.24;
+  color: #737588;
+}
+form textarea {
+  width: 446px;
+  border: 1px solid hsla(33, 32%, 88%, 0.7) !important;
+  background: transparent;
+  width: 100%;
+  height: 140px;
+  border-radius: 6px;
+  padding: 14px 18px;
+  font-weight: 300;
+  resize: vertical;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  outline: none;
+}
+.form button {
+  width: 100%;
+  border-radius: 5px !important;
+  color: #fff;
+  background-color: #246bfd;
+  height: 55px;
+  line-height: 55px;
+  padding: 0 30px;
+  overflow: hidden;
+  border: 0;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  cursor: pointer;
+  z-index: 0;
+  margin-top: 20px;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #101a29 50%,
+    transparent 50%
+  );
+  background-image: linear-gradient(45deg, #101a29 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: 1.5s ease-in-out;
+}
+.form button:hover {
+  background-color: #fff !important;
+  transition: all 2s ease;
+  background-position: 0;
+  z-index: -1;
+  /* color: #101a29 !important; */
+}
+/* section 5 end  */
+
+/* responsive  */
+@media (max-width: 1200px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1200px;
+  }
+  .navbar-logo {
+    width: 26%;
+    height: 96px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/AgileTech-logo-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 38.4%;
+  }
+  .navbar-logo img {
+    width: 170px;
+    height: 43px;
+  }
+  .navbar-top {
+    display: none;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .sec1 {
+    width: 100%;
+    padding: 0 120px;
+  }
+  .sec1 h2 {
+    width: 376px;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #fff;
+    line-height: 1.24;
+  }
+  .sec1 p {
+    width: 376px;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+    padding: 0 !important;
+    font-weight: 500;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    color: #737588;
+    line-height: 1.7;
+  }
+  .sec5 .image-form img {
+    width: 616px;
+    height: 673.4px;
+  }
+  .sec5 .image-form .form {
+    width: 486px;
+    height: 597px;
+    padding: 30px;
+  }
+  .sec5 form input {
+    width: 201px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  header {
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-logo {
+    width: 100%;
+    height: 51px !important;
+    position: absolute;
+    top: -8px;
+    background-image: url("./images/AgileTech-logo-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+  .navbar-logo img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 201px;
+    height: 51px;
+  }
+  .navbar-top {
+    width: 992px !important;
+    display: none;
+    margin: 0;
+    padding: 0 !important;
+  }
+  nav ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 88px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    z-index: 1;
+    background: #fff;
+    gap: 0;
+    overflow: hidden;
+  }
+  nav ul li {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .menu-icon {
+    position: absolute;
+    right: 150px;
+    bottom: 5px;
+    display: block !important;
+  }
+  .menu-icon i {
+    font-size: 20px;
+    color: #010d14;
+  }
+  #menu-list {
+    transition: all 0.5s;
+  }
+  header button {
+    display: none;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .sec1 .container {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .sec1 h2 {
+    width: 696px !important;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #fff;
+    line-height: 1.24;
+  }
+  .sec1 p {
+    width: 696px !important;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+    padding: 0 !important;
+    font-weight: 500;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    color: #737588;
+    line-height: 1.7;
+  }
+  .sec5 .container {
+    width: 100%;
+    padding: 0 25px;
+  }
+  .sec5 {
+    width: 992px;
+    height: 519px;
+    padding: 110px 0 100px 0;
+    background-image: url("/images/AgileTech-sec5-bg.jpg");
+    background-position: cover;
+    background-position: 50% 50%;
+  }
+  .sec5 .card {
+    width: 240px !important;
+    padding: 0 12px;
+  }
+  .sec5 .cards {
+    width: 100%;
+    padding-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sec5 .image-form {
+    position: relative;
+  }
+  .sec5 .image-form img {
+    width: 616px;
+    height: 673.4px;
+  }
+  .sec5 .image-form .form {
+    width: 486px;
+    height: 597px;
+    padding: 30px;
+  }
+  .sec5 form input {
+    width: 201px !important;
+  }
+}
+@media (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 768px;
+  }
+  .navbar-bottom {
+    width: 768px !important;
+  }
+  nav ul {
+    /* width: 768px !important; */
+    display: flex;
+    position: absolute;
+    top: 88px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    z-index: 1;
+    background: #fff;
+    gap: 0;
+    overflow: hidden;
+  }
+  nav ul li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .menu-icon {
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+    display: block !important;
+  }
+  .menu-icon i {
+    font-size: 20px;
+    color: #010d14;
+  }
+  #menu-list {
+    transition: all 0.5s;
+  }
+  header button {
+    display: none;
+  }
+  .sec1 {
+    width: 100%;
+    padding: 0 120px;
+  }
+  .sec1 h2 {
+    width: 516px;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #fff;
+    line-height: 1.24;
+  }
+  .sec1 p {
+    width: 516px;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+    padding: 0 !important;
+    font-weight: 500;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    color: #737588;
+    line-height: 1.7;
+  }
+  .sec5 .container {
+    width: 100%;
+    padding: 0 35px;
+  }
+  .sec5 {
+    width: 768px !important;
+    height: 1400px !important;
+    padding: 110px 0 100px 0;
+    background-image: url("/images/AgileTech-sec5-bg.jpg");
+    background-position: cover;
+    background-position: 50%;
+  }
+  .sec5 .cards {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sec5 .card {
+    width: 336px !important;
+  }
+  .sec5 .image-form {
+    width: 100%;
+    position: relative;
+  }
+  .sec5 .image-form img {
+    width: 696px;
+    height: 761px;
+  }
+  .sec5 .image-form .form {
+    height: 737px;
+    width: 696px;
+    padding: 30px;
+    margin-top: 100px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+  }
+  .sec5 form .input-one,
+  form .input-two {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .sec5 form .input-one input,
+  form .input-two input {
+    width: 636px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 768px;
+  }
+  .navbar-bottom {
+    width: 445px !important;
+  }
+  nav ul {
+    display: flex;
+    position: absolute;
+    top: 88px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    z-index: 1;
+    background: #fff;
+    gap: 0;
+    overflow: hidden;
+  }
+  nav ul li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .menu-icon {
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+    display: block !important;
+  }
+  .menu-icon i {
+    font-size: 20px;
+    color: #010d14;
+  }
+  #menu-list {
+    transition: all 0.5s;
+  }
+  header button {
+    display: none;
+  }
+  .sec1 {
+    width: 100%;
+    padding: 0 120px;
+  }
+  .sec1 h2 {
+    width: 350px !important;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #fff;
+    line-height: 1.24;
+  }
+  .sec1 p {
+    max-width: 350px;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+    padding: 0 !important;
+    font-weight: 500;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    color: #737588;
+    line-height: 1.7;
+  }
+  .sec5 .container {
+    max-width: 500px;
+    padding: 0 35px;
+  }
+  .sec5 {
+    width: 480px !important;
+    height: 2100px !important;
+    padding: 110px 0 100px 0;
+    background-image: url("/images/AgileTech-sec5-bg.jpg");
+    background-position: cover;
+    background-position: 50%;
+  }
+  .sec5 .cards {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sec5 .card {
+    width: 336px !important;
+  }
+  .sec5 .image-form {
+    width: 100%;
+    position: relative;
+  }
+  .sec5 .image-form img {
+    width: 350px;
+    height: 761px;
+  }
+  .sec5 .image-form .form {
+    height: 737px;
+    width: 350px;
+    padding: 30px;
+    margin-top: 100px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+  }
+  .sec5 form .input-one,
+  form .input-two {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .sec5 form .input-one input,
+  form .input-two input {
+    width: 350px !important;
+  }
+}
+
+@media (max-width: 395px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 390px;
+  }
+  .navbar-bottom {
+    width: 395px !important;
+  }
+  nav ul {
+    display: flex;
+    position: absolute;
+    top: 88px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    z-index: 1;
+    background: #fff;
+    gap: 0;
+    overflow: hidden;
+  }
+  nav ul li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .menu-icon {
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+    display: block !important;
+  }
+  .menu-icon i {
+    font-size: 20px;
+    color: #010d14;
+  }
+  #menu-list {
+    transition: all 0.5s;
+  }
+  header button {
+    display: none;
+  }
+  .sec1 {
+    width: 100%;
+    padding: 0 120px;
+  }
+  .sec1 h2 {
+    width: 395px !important;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #fff;
+    line-height: 1.24;
+  }
+  .sec1 p {
+    width: 395px !important;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+    padding: 0 !important;
+    font-weight: 500;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    color: #737588;
+    line-height: 1.7;
+  }
+  .sec5 .container {
+    max-width: 340px;
+    padding: 0 35px;
+  }
+  .sec5 {
+    width: 390px !important;
+    height: 1800px !important;
+    padding: 110px 0 100px 0;
+    background-image: url("/images/AgileTech-sec5-bg.jpg");
+    background-position: cover;
+    background-position: 50%;
+  }
+  .sec5 .cards {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sec5 .card {
+    width: 336px !important;
+  }
+  .sec5 .image-form {
+    width: 350px;
+    position: relative;
+  }
+  .sec5 .image-form img {
+    width: 310px;
+    height: 500px;
+  }
+  .sec5 .image-form .form {
+    height: 737px;
+    width: 320px;
+    padding: 30px;
+    margin-top: 100px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+  }
+  .sec5 form .input-one,
+  form .input-two {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sec5 form .input-one input,
+  form .input-two input {
+    width: 320px !important;
+  }
+}
+/* by Yusif Ramazanov */
+/*section 7th start  */
+.cardInfo {
+  width: 100%;
+  padding: 115px 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/17.png);
+  background-size: contain;
+  background-size: 100% 100%;
+}
+/* section 7th head partition start */
+.cardInfoHead {
+  width: 100%;
+  max-width: 1116px;
+  height: 85px;
+  margin-bottom: 50px;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.cardInfoHead h6 {
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+.cardInfoHead h2 {
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+/* section 7th head partition end */
+
+/* section 7th main partition start */
+.cardInfoDown {
+  width: 100%;
+  max-width: 1140px;
+  height: 567px;
+  margin: 0 12px 0 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* section 7th main 1st\\2nd\\3rd partitions start */
+.cardPicturesInfoAll {
+  width: 100%;
+  width: 356px;
+  height: 402px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardPicturesInfo {
+  width: 100%;
+  width: 356px;
+  height: 340px;
+  padding: 0 12px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.cardPictureOut {
+  width: 100%;
+  max-width: 356px;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardPicture {
+  width: 100%;
+  width: 296px;
+  height: 280px;
+  overflow: hidden;
+  transition: 1s;
+  position: relative;
+}
+.cardPicture img {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+.cardPicturesInfoAll:hover .cardPicture {
+  transform: scale(1.1);
+}
+
+.cardTextInfo {
+  width: 296px;
+  height: 122px;
+  background: #fff;
+  margin: -60px 30px 30px;
+  position: relative;
+  z-index: 2;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 3px 20px rgba(0, 33, 71, 0.06);
+  text-align: center;
+}
+.cardTextInfo h5 {
+  margin-bottom: 10px;
+}
+.cardTextInfo a {
+  font-size: 22px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0.1s;
+  transition-property: all;
+}
+a:hover {
+  color: rgb(13 110 253);
+}
+.cardTextInfo p {
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 200;
+  color: grey;
+}
+.cardPicturesInfo ul {
+  width: 117px;
+  height: 35px;
+  list-style: none;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  margin-top: 260px;
+  transition: 0.5s;
+  opacity: 0.1;
+}
+.cardPicturesInfoAll:hover ul {
+  transition: 0.5s;
+  margin-top: 200px;
+  opacity: 1;
+}
+.cardPicturesInfo ul li {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cardPicturesInfo ul li a {
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 4px 4px 0 0;
+  display: inline-block;
+  background-color: #246bfd;
+  margin: 0 2px;
+  color: #fff;
+}
+/* section 7th main 1st\\2nd\\3rd partitions end */
+
+/* section 7th responsive for display start */
+@media (max-width: 1200px) {
+  .cardInfoHead {
+    width: 936px;
+    height: 85px;
+  }
+  .cardInfoDown {
+    width: 960px;
+    height: 375px;
+  }
+  .cardPicturesInfoAll {
+    width: 295px;
+    height: 345px;
+  }
+  .cardPicturesInfo {
+    width: 295px;
+    height: 300px;
+  }
+  .cardPicturesInfoAll:hover ul {
+    margin-top: 160px;
+  }
+  .cardTextInfo {
+    width: 236px;
+    height: 122px;
+    font-size: 24px;
+  }
+  .cardPicture {
+    width: 235px;
+    height: 223px;
+  }
+}
+/* section 3th responsive for display end */
+
+/* section 3th responsive for tablet start */
+@media (max-width: 992px) {
+  .cardInfo {
+    width: 100%;
+    max-width: 992px;
+    height: 1610px;
+  }
+  .cardInfoHead {
+    width: 696px;
+    height: 85px;
+  }
+  .cardInfoDown {
+    width: 720px;
+    height: 826px;
+    flex-wrap: wrap;
+  }
+  .cardPicturesInfoAll {
+    width: 365px;
+    height: 383px;
+  }
+  .cardPicturesInfoAll ul {
+    margin-top: 365px;
+  }
+  .cardPicturesInfoAll:hover ul {
+    margin-top: 310px;
+  }
+  .cardPicturesInfo {
+    width: 336px;
+    height: 320px;
+  }
+
+  .cardTextInfo {
+    width: 236px;
+    height: 122px;
+    font-size: 24px;
+  }
+  .cardPicture {
+    width: 235px;
+    height: 223px;
+  }
+}
+/* section 7th responsive for tablet end */
+
+/* section 7th responsive for phone start */
+@media (max-width: 768px) {
+  .cardInfo {
+    width: 100%;
+    max-width: 768px;
+    height: 2819px;
+    justify-content: center;
+  }
+  .cardInfoHead {
+    width: 516px;
+    height: 134px;
+  }
+  .cardInfoDown {
+    width: 540px;
+    height: 1120px;
+    flex-wrap: wrap;
+    margin-top: 400px;
+  }
+  .cardPicturesInfoAll {
+    width: 100%;
+    max-width: 540px;
+    height: 540px;
+  }
+  .cardPicturesInfo {
+    max-width: 530px;
+    height: 540px;
+    width: 100%;
+  }
+  .cardTextInfo {
+    width: 456px;
+    height: 122px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .cardPicture {
+    width: 451px;
+    height: 426px;
+  }
+}
+@media (max-width: 500px) {
+  .cardInfo {
+    width: 100%;
+    max-width: 768px;
+    height: 2019px;
+  }
+  .cardInfoHead {
+    width: 360px;
+    height: 134px;
+  }
+  .cardInfoDown {
+    width: 430px;
+    height: 1620px;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .cardPicturesInfoAll {
+    width: 100%;
+    max-width: 540px;
+    height: 540px;
+  }
+  .cardPicturesInfo {
+    max-width: 530px;
+    height: 540px;
+    width: 100%;
+  }
+  .cardTextInfo {
+    width: 330px;
+    height: 122px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .cardPicture {
+    width: 430px;
+    height: 426px;
+  }
+}
+@media (max-width: 391px) {
+  .cardInfo {
+    width: 100%;
+    max-width: 768px;
+    height: 2019px;
+  }
+  .cardInfoHead {
+    width: 330px;
+    height: 134px;
+  }
+  .cardInfoDown {
+    width: 330px;
+    height: 1620px;
+    flex-wrap: wrap;
+  }
+  .cardPicturesInfoAll {
+    width: 100%;
+    max-width: 540px;
+    height: 540px;
+  }
+  .cardPicturesInfo {
+    max-width: 391px;
+    height: 540px;
+    width: 100%;
+  }
+  .cardTextInfo {
+    width: 330px;
+    height: 122px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .cardPicture {
+    width: 391px;
+    height: 426px;
+  }
+}
+/* section 7th 1st\\ 2nd\\ 3rd responsive for phone end */
+
+.footer1 {
+  max-width: 1348px;
+  height: 975px;
+  background-color: rgb(2, 28, 146);
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* footer's heading partition start */
+.footerAbout {
+  width: 1116px;
+  height: 205px;
+  background-color: #246bfd;
+  padding: 0 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerAboutText {
+  width: 324px;
+  height: 134px;
+  background-color: #246bfd;
+  padding: 0 12px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  color: white;
+}
+.footerAboutText i {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  margin-right: 7px;
+}
+.footerAboutTextParts {
+  width: 324px;
+  height: 89px;
+  padding: 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 16px;
+}
+.footerAboutTextParts h5 {
+  font-size: 24px;
+  margin: 0 0 8px;
+}
+/* footer's heading partition end */
+
+/* footer's center partition start */
+.footerCenter {
+  max-width: 1116px;
+  height: 441px;
+  background-color: rgb(0, 0, 0);
+  padding: 0 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* footer's center partition 1th start */
+.footerCenterText {
+  width: 285px;
+  height: 341px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  color: white;
+}
+.footerCenterTextHeadEnd {
+  margin-left: -50px;
+}
+.footerPicture img {
+  width: 150px;
+  height: 38px;
+  margin-bottom: 20px;
+}
+.footerInput input {
+  width: 240px;
+  height: 44px;
+  border-radius: 5px;
+  border: none;
+  padding: 0 10px;
+  margin-top: 20px;
+  font-size: 18px;
+  border: none;
+}
+.browserIcon {
+  width: 261px;
+  height: 30px;
+  display: flex;
+  justify-content: star;
+  align-items: start;
+  margin-top: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+.browserIcon li {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(54, 53, 53);
+  font-size: 10px;
+  margin-right: 20px;
+  border-radius: 7px;
+  transition: 0.5s;
+  color: white;
+}
+.browserIcon li:hover {
+  transition: 0.5s;
+  background-color: rgb(13 110 253);
+}
+/* footer's center partition 2th and 3rd start */
+.allkinksText {
+  width: 261px;
+  height: 254px;
+  padding: 0 0 0 48px;
+  font-size: 20px;
+}
+.allkinksText a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+.allkinksText a:hover {
+  transition: 0.5s;
+  color: rgb(13 110 253);
+}
+.allkinksText li {
+  display: flex;
+  margin-bottom: 7px;
+}
+.allkinksText li i {
+  margin-right: 15px;
+  color: #333f4d;
+}
+.footerCenterText h4 {
+  padding: 0 0 0 48px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 600px;
+}
+/* footer's center partition 2th and 3rd end */
+.recentBlog {
+  width: 261px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.recentBlogImg {
+  width: 80px;
+  height: 80px;
+}
+.recentBlogImg img {
+  width: 100%;
+  height: 100%;
+}
+.recentBlogDate {
+  width: 163px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.recentBlogCalendar {
+  width: 163px;
+  height: 22px;
+}
+.recentBlogCalendar i {
+  color: #246bfd;
+}
+.recentBlogDate a {
+  font-size: 16px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  transition: 0.5s;
+}
+.recentBlogDate a:hover {
+  transition: 0.5s;
+  color: rgb(13 110 253);
+}
+/* footer's center partition end */
+.footerEnd {
+  width: 100%;
+  max-width: 1330px;
+  height: 74px;
+  background-color: #246bfd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+.footerEndText {
+  width: 960px;
+  height: 27px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+/* footer's view with responsive measure */
+
+/* footer responsive for display start */
+@media (max-width: 1200px) {
+  .footer1 {
+    max-width: 1200px;
+    height: 950px;
+  }
+  .footerAbout {
+    width: 936px;
+    height: 205px;
+  }
+  .footerAboutText {
+    width: 263px;
+    height: 109px;
+  }
+  .footerCenter {
+    width: 1190px;
+    height: 685px;
+    flex-wrap: wrap;
+  }
+}
+/* footer responsive for display end */
+
+/* footer responsive for tablet start */
+@media (max-width: 992px) {
+  .footer1 {
+    max-width: 992px;
+    height: 1160px;
+  }
+  .footerAbout {
+    width: 696px;
+    height: 423px;
+    flex-direction: column;
+    align-items: start;
+  }
+  .footerAboutText {
+    width: 263px;
+    height: 109px;
+  }
+  .footerCenter {
+    max-width: 992px;
+    height: 685px;
+    flex-wrap: wrap;
+  }
+  .footerCenterText {
+    width: 360px;
+    height: 324px;
+  }
+  .footerendText {
+    width: 720px;
+    height: 27px;
+  }
+}
+/* footer responsive for tablet end */
+
+/* footer responsive for phone start */
+@media (max-width: 768px) {
+  .footer1 {
+    max-width: 764px;
+    height: 1393px;
+  }
+  .footerAbout {
+    width: 516px;
+    height: 423px;
+    flex-direction: column;
+    align-items: start;
+  }
+  .footerAboutText {
+    width: 263px;
+    height: 109px;
+  }
+  .footerCenter {
+    max-width: 760px;
+    height: 960px;
+    flex-wrap: wrap;
+  }
+  .footerCenterText {
+    max-width: 516px;
+    height: 240px;
+  }
+  .footerendText {
+    max-width: 720px;
+    height: 27px;
+  }
+}
+@media (max-width: 500px) {
+  .footer1 {
+    max-width: 410px;
+    height: 1393px;
+  }
+  .footerAbout {
+    width: 550px;
+    height: 423px;
+    flex-direction: column;
+    align-items: start;
+  }
+  .footerAboutText {
+    width: 263px;
+    height: 109px;
+  }
+  .footerCenter {
+    max-width: 550px !important;
+    height: 960px;
+    flex-wrap: wrap;
+  }
+  .footerCenterText {
+    width: 470px;
+    height: 240px;
+  }
+  .footerEnd {
+    width: 550px;
+  }
+  .footerendText {
+    width: 410px;
+    height: 27px;
+  }
+}
+@media (max-width: 410px) {
+  .footer1 {
+    max-width: 410px;
+    height: 1393px;
+  }
+  .footerAbout {
+    width: 410px;
+    height: 423px;
+    flex-direction: column;
+    align-items: start;
+  }
+  .footerAboutText {
+    width: 263px;
+    height: 109px;
+  }
+  .footerCenter {
+    max-width: 410px !important;
+    height: 960px;
+    flex-wrap: wrap;
+  }
+  .footerCenterText {
+    width: 410px;
+    height: 240px;
+  }
+  .footerendText {
+    width: 410px;
+    height: 27px;
+  }
+  .footerEnd {
+    width: 390px;
+  }
+}
