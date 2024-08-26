@@ -1420,8 +1420,8 @@ a:hover {
   .cardInfo {
     width: 100%;
     max-width: 768px;
-    height: 2819px;
-    justify-content: center;
+    height: 2019px;
+    justify-content: start;
   }
   .cardInfoHead {
     width: 516px;
@@ -1431,7 +1431,6 @@ a:hover {
     width: 540px;
     height: 1120px;
     flex-wrap: wrap;
-    margin-top: 400px;
   }
   .cardPicturesInfoAll {
     width: 100%;
